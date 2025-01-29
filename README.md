@@ -11,8 +11,8 @@
 
 1. **Clone the Repository**:
     ```sh
-    git clone <your-repo-url>
-    cd <your-repo-directory>
+    git clone https://github.com/pranavmanoj1/RESUME_GENERATOR.git
+    cd RESUME_GENERATOR
     ```
 
 2. **Install Dependencies**:
