@@ -4,7 +4,7 @@
 
 ### Introduction
 
-I recently worked on an exciting project that integrates a web application with Google Docs. This project allows users to fill out a form on a website, and then automatically updates a Google Doc with the information provided. Here's a simple explanation of what I did and how it works.
+I recently worked on an exciting project that integrates a web application with Google Docs. This project allows users to fill out a form on a website, and then automatically updates a Google Doc with the information provided. 
 
 ### Key Features
 
@@ -17,21 +17,6 @@ I recently worked on an exciting project that integrates a web application with 
 1. **Form Submission**: Users fill out the form on the website with their personal and professional details.
 2. **Data Collection**: When the form is submitted, the data is collected and organized.
 3. **Google Docs Update**: The collected data is sent to a Google Doc using Google's API (Application Programming Interface). The placeholders in the document are replaced with the user's information.
-
-### Potential Applications
-
-This project can be adapted for various use cases beyond just updating personal information. One potential application is generating tedious invoices. Here's how it could work:
-
-1. **Invoice Form**: Modify the form to include fields relevant to invoices, such as:
-    - Client Name
-    - Client Address
-    - Invoice Number
-    - Date of Issue
-    - List of Services or Products
-    - Quantity and Price for each item
-    - Total Amount
-2. **Template Document**: Create a Google Docs template for the invoice with placeholders for each of the fields mentioned above.
-3. **Automated Generation**: When the form is submitted, the collected data can be mapped to the corresponding placeholders in the Google Docs template, generating a complete and accurate invoice.
 
 ### Benefits
 
@@ -55,6 +40,22 @@ While this project demonstrates the potential of integrating web applications wi
 - **Encryption**: Use encryption to protect data in transit and at rest.
 - **Regular Audits**: Conduct regular security audits to identify and address potential vulnerabilities.
 
+  
+### Potential Applications
+
+This project can be adapted for various use cases beyond just updating personal information. One potential application is generating tedious invoices. Here's how it could work:
+
+1. **Invoice Form**: Modify the form to include fields relevant to invoices, such as:
+    - Client Name
+    - Client Address
+    - Invoice Number
+    - Date of Issue
+    - List of Services or Products
+    - Quantity and Price for each item
+    - Total Amount
+2. **Template Document**: Create a Google Docs template for the invoice with placeholders for each of the fields mentioned above.
+3. **Automated Generation**: When the form is submitted, the collected data can be mapped to the corresponding placeholders in the Google Docs template, generating a complete and accurate invoice.
+
 ## Quick Start Guide
 
 ### Prerequisites
@@ -76,8 +77,7 @@ While this project demonstrates the potential of integrating web applications wi
     ```
 
 3. **Configure Environment Variables**:
-    Create a `.env` file in the root directory and add your Google API credentials:
-    ```env
+    Enter your client id and api key
     VITE_CLIENT_ID=your-client-id
     VITE_API_KEY=your-api-key
     ```
